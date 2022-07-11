@@ -1,0 +1,11 @@
+mylist = [112, 'abc', 456]
+print(mylist[0])
+
+print(mylist[0:1])
+
+mystr = "Mon Tue Wed Thu Fri Sat Sun"
+print(mystr[8:12])
+print(mystr[0:8])
+print(mystr[:8])
+print(mystr[:-3])
+print(mystr[-8:])

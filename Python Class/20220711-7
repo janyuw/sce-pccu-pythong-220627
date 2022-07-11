@@ -1,0 +1,6 @@
+msg = '輸入q 可以結束對話'
+input_msg = ""
+
+while input_msg != "q":
+    input_msg = input(msg)
+    print(input_msg)

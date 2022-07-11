@@ -1,0 +1,10 @@
+scores = [33,28,57,88,63,45,80,100,36]
+games = 0
+for score in scores:
+    if score <50:
+        continue
+    games += 1
+print("有%d的場次得分超過50分" % games)
+
+
+
